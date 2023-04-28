@@ -25,8 +25,7 @@ Copy Product folder files (vst3, component) to Mac-OS plugin path: /Library/Audi
 
 ## Notes
 
-You may need the JUCE Framework found [here](https://github.com/juce-framework/JUCE)
-Note: Running SimpleEQ.jucer wipes data such as pList info
+You may need the JUCE Framework found [here](https://github.com/juce-framework/JUCE). Running SimpleEQ.jucer wipes data such as pList info
 
 ## Credits
 
