@@ -1,6 +1,6 @@
 # Simple JUCE EQ
 
-![Screenshot](https://jasonfleischer.github.io/juce-eq/Resources/Screenshot1.png)
+![Screenshot](./Resources/Screenshot1.png "Sreenshot")
 
 ## Description
 
