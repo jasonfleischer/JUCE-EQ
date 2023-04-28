@@ -11,7 +11,6 @@
   <MAINGROUP id="s5r5Qf" name="SimpleEQ">
     <GROUP id="{EB4F8612-C52A-17AB-DDE5-DD5DEC43A28C}" name="Resources">
       <FILE id="gJqWRJ" name="Icon.icns" compile="0" resource="1" file="Resources/Icon.icns"/>
-      <FILE id="tt2Ia0" name="README.md" compile="0" resource="1" file="Resources/README.md"/>
     </GROUP>
     <GROUP id="{46216C51-0581-4C88-D24E-5972E6D2E10F}" name="Source">
       <GROUP id="{897C4839-71F5-C303-F119-25A47AD8E40F}" name="Models">

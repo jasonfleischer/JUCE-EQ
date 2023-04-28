@@ -256,38 +256,6 @@ static const unsigned char temp_binary_data_0[] =
 
 const char* Icon_icns = (const char*) temp_binary_data_0;
 
-//================== README.md ==================
-static const unsigned char temp_binary_data_1[] =
-"# SimpleEQ\n"
-"\n"
-"## Description\n"
-"\n"
-"Simple equalizer built with [JUCE](https://juce.com/) framework from following this tutorial:\n"
-"\n"
-"[Learn Modern C++ by Building an Audio Plugin (w/ JUCE Framework)](https://www.youtube.com/watch?v=i_Iq4_Kd7Rc&ab_channel=freeCodeCamp.org)\n"
-"\n"
-"## Instructions\n"
-"\n"
-"ProJucer wipes data such as plist info\n"
-"Run the following to insert missing properties:\n"
-"```\n"
-"python3 Scripts/insert_plist_settings.py\n"
-"```\n"
-"For Mac, copy Product folder files (vst3, component) to Mac-OS plugin path: /Library/Audio/Plug-Ins\n"
-"\n"
-"## Credits\n"
-"\n"
-"####Matkat Music \n"
-"- [github](https://github.com/matkatmusic)\n"
-"- [SimpleEQ project](https://github.com/matkatmusic/SimpleEQ)\n"
-"- [Instagram](https://www.instagram.com/matkatmusic)\n"
-"\n"
-"## Author\n"
-"\n"
-"- [Jason Fleischer](https://jasonfleischer.github.io/website/)\n";
-
-const char* README_md = (const char*) temp_binary_data_1;
-
 
 const char* getNamedResource (const char* resourceNameUTF8, int& numBytes);
 const char* getNamedResource (const char* resourceNameUTF8, int& numBytes)
@@ -301,7 +269,6 @@ const char* getNamedResource (const char* resourceNameUTF8, int& numBytes)
     switch (hash)
     {
         case 0x248cbc45:  numBytes = 17110; return Icon_icns;
-        case 0x64791dc8:  numBytes = 781; return README_md;
         default: break;
     }
 
@@ -311,14 +278,12 @@ const char* getNamedResource (const char* resourceNameUTF8, int& numBytes)
 
 const char* namedResourceList[] =
 {
-    "Icon_icns",
-    "README_md"
+    "Icon_icns"
 };
 
 const char* originalFilenames[] =
 {
-    "Icon.icns",
-    "README.md"
+    "Icon.icns"
 };
 
 const char* getNamedResourceOriginalFilename (const char* resourceNameUTF8);
