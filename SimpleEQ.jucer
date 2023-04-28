@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="xhyaXt" name="SimpleEQ" projectType="audioplug" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1"
+              companyWebsite="https://jasonfleischer.github.io/website/" companyName="TaurusStudios"
+              pluginDesc="A simple equalizer" pluginName="EQ" bundleIdentifier="com.TaurusStudios.EQ"
+              pluginManufacturer="TaurusStudios" aaxIdentifier="com.TaurusStudios.EQ"
+              pluginCode="Xxxy" pluginManufacturerCode="Acdc" pluginAUExportPrefix="TaurusStudiosEQ"
+              version="1.0.0" lv2Uri="https://jasonfleischer.github.io/website/plugins/SimpleEQ"
+              binaryDataNamespace="BinaryData" postExportShellCommandPosix="%%1%%/Scripts/post_export.sh">
+  <MAINGROUP id="s5r5Qf" name="SimpleEQ">
+    <GROUP id="{EB4F8612-C52A-17AB-DDE5-DD5DEC43A28C}" name="Resources">
+      <FILE id="gJqWRJ" name="Icon.icns" compile="0" resource="1" file="Resources/Icon.icns"/>
+      <FILE id="tt2Ia0" name="README.md" compile="0" resource="1" file="Resources/README.md"/>
+    </GROUP>
+    <GROUP id="{46216C51-0581-4C88-D24E-5972E6D2E10F}" name="Source">
+      <GROUP id="{897C4839-71F5-C303-F119-25A47AD8E40F}" name="Models">
+        <FILE id="DX2GFJ" name="ChainPositions.h" compile="0" resource="0"
+              file="Source/ChainPositions.h"/>
+        <FILE id="kaJsDT" name="ChainSettings.h" compile="0" resource="0" file="Source/ChainSettings.h"/>
+        <FILE id="bSxY4E" name="Channel.hpp" compile="0" resource="0" file="Source/Channel.hpp"/>
+        <FILE id="NUpLnw" name="CustomColors.cpp" compile="1" resource="0"
+              file="Source/CustomColors.cpp"/>
+        <FILE id="VVOWwk" name="CustomColors.hpp" compile="0" resource="0"
+              file="Source/CustomColors.hpp"/>
+        <FILE id="njlXEg" name="FFTOrder.h" compile="0" resource="0" file="Source/FFTOrder.h"/>
+        <FILE id="xlBwGH" name="Slope.h" compile="0" resource="0" file="Source/Slope.h"/>
+      </GROUP>
+      <GROUP id="{08901371-23C0-7D4C-EED8-CDB559FD082D}" name="ViewsComponents">
+        <GROUP id="{C5B2B17C-67D2-B13D-F071-969E898BBCAB}" name="LookAndFeel">
+          <FILE id="f6sUFd" name="AnalyzerButtonLookAndFeel.cpp" compile="1"
+                resource="0" file="Source/AnalyzerButtonLookAndFeel.cpp"/>
+          <FILE id="aOIOES" name="AnalyzerButtonLookAndFeel.hpp" compile="0"
+                resource="0" file="Source/AnalyzerButtonLookAndFeel.hpp"/>
+          <FILE id="RK90c8" name="BypassButtonLookAndFeel.cpp" compile="1" resource="0"
+                file="Source/BypassButtonLookAndFeel.cpp"/>
+          <FILE id="cop3w9" name="BypassButtonLookAndFeel.hpp" compile="0" resource="0"
+                file="Source/BypassButtonLookAndFeel.hpp"/>
+          <FILE id="V6mYHr" name="RotarySliderLookAndFeel.cpp" compile="1" resource="0"
+                file="Source/RotarySliderLookAndFeel.cpp"/>
+          <FILE id="EHSbiY" name="RotarySliderLookAndFeel.hpp" compile="0" resource="0"
+                file="Source/RotarySliderLookAndFeel.hpp"/>
+        </GROUP>
+        <FILE id="HPPKjU" name="AnalyzerButton.cpp" compile="1" resource="0"
+              file="Source/AnalyzerButton.cpp"/>
+        <FILE id="sXbf3z" name="AnalyzerButton.hpp" compile="0" resource="0"
+              file="Source/AnalyzerButton.hpp"/>
+        <FILE id="H7VVWa" name="BypassToggleButton.cpp" compile="1" resource="0"
+              file="Source/BypassToggleButton.cpp"/>
+        <FILE id="S6YeuE" name="BypassToggleButton.hpp" compile="0" resource="0"
+              file="Source/BypassToggleButton.hpp"/>
+        <FILE id="gFCZ8v" name="ResponseCurveComponent.cpp" compile="1" resource="0"
+              file="Source/ResponseCurveComponent.cpp"/>
+        <FILE id="XPmQRq" name="ResponseCurveComponent.hpp" compile="0" resource="0"
+              file="Source/ResponseCurveComponent.hpp"/>
+        <FILE id="AF9vJK" name="RotarySliderWithLabels.cpp" compile="1" resource="0"
+              file="Source/RotarySliderWithLabels.cpp"/>
+        <FILE id="StlGed" name="RotarySliderWithLabels.hpp" compile="0" resource="0"
+              file="Source/RotarySliderWithLabels.hpp"/>
+      </GROUP>
+      <GROUP id="{9F37D9A0-CF68-1EB0-2B9D-DAE536A85A0C}" name="Services">
+        <FILE id="Ey3N3m" name="AnalyzerPathGenerator.cpp" compile="1" resource="0"
+              file="Source/AnalyzerPathGenerator.cpp"/>
+        <FILE id="mv2lrL" name="AnalyzerPathGenerator.hpp" compile="0" resource="0"
+              file="Source/AnalyzerPathGenerator.hpp"/>
+        <FILE id="cOvsFH" name="FFTDataGenerator.cpp" compile="1" resource="0"
+              file="Source/FFTDataGenerator.cpp"/>
+        <FILE id="U8yAai" name="FFTDataGenerator.hpp" compile="0" resource="0"
+              file="Source/FFTDataGenerator.hpp"/>
+        <FILE id="p3jKZj" name="Fifo.cpp" compile="1" resource="0" file="Source/Fifo.cpp"/>
+        <FILE id="gRoNVu" name="Fifo.hpp" compile="0" resource="0" file="Source/Fifo.hpp"/>
+        <FILE id="FSl5GI" name="PathProducer.cpp" compile="1" resource="0"
+              file="Source/PathProducer.cpp"/>
+        <FILE id="w8cmBd" name="PathProducer.hpp" compile="0" resource="0"
+              file="Source/PathProducer.hpp"/>
+        <FILE id="RtHViI" name="SingleChannelSampleFifo.cpp" compile="1" resource="0"
+              file="Source/SingleChannelSampleFifo.cpp"/>
+        <FILE id="qPr3HJ" name="SingleChannelSampleFifo.hpp" compile="0" resource="0"
+              file="Source/SingleChannelSampleFifo.hpp"/>
+      </GROUP>
+      <FILE id="adJm5j" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="BbEYUg" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+      <FILE id="fGvPPu" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="QEZmm7" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_dsp" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_VST3_CAN_REPLACE_VST2="0"/>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX" buildNumber="1.0">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="SimpleEQ"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="SimpleEQ"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_dsp" path="../JUCE/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+</JUCERPROJECT>
