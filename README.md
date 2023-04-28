@@ -12,20 +12,18 @@ Produces a standalone product with AU and VST3 plugins.
 
 ## Instructions
 
-1. open <project root>/Builds/MacOX/SimpleEQ.xcodeproj
+1. Open <project root>/Builds/MacOX/SimpleEQ.xcodeproj
+2. Choose target (such as 'SimpleEQ - Standalone Plugin') and run
 
-2. Run the following to insert missing properties:
-```
-python3 <project root>/Scripts/insert_plist_settings.py
-```
-
-3. Choose target (such as 'SimpleEQ - Standalone Plugin') and run
-
-Copy product folder files (vst3, component) to Mac-OS plugin path: /Library/Audio/Plug-Ins
+If building plugins, copy product folder files (vst3, component) to the Mac-OS plugin path: /Library/Audio/Plug-Ins
 
 ## Notes
 
-You may need the JUCE Framework found [here](https://github.com/juce-framework/JUCE). Running SimpleEQ.jucer wipes data such as pList information.
+- You can get the JUCE Framework found [here](https://github.com/juce-framework/JUCE). 
+- Running SimpleEQ.jucer wipes pList information. Run the following to insert missing properties:
+```
+python3 <project root>/Scripts/insert_plist_settings.py
+```
 
 ## Credits
 
