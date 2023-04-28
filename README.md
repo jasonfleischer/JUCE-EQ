@@ -4,18 +4,27 @@
 
 ## Description
 
-Simple equalizer built with [JUCE](https://juce.com/) framework from following this tutorial:
+Mac OS Simple equalizer built with XCode and the [JUCE](https://juce.com/) framework. It was built by following this tutorial:
 
 [Learn Modern C++ by Building an Audio Plugin (w/ JUCE Framework)](https://www.youtube.com/watch?v=i_Iq4_Kd7Rc&ab_channel=freeCodeCamp.org)
 
+Produces a standalone product with AU and VST3 plugins.
+
 ## Instructions
 
-ProJucer wipes data such as plist info
-Run the following to insert missing properties:
+You will need the JUCE Framework found [here](https://github.com/juce-framework/JUCE)
+
+1. open <project root>/Builds/MacOX/SimpleEQ.xcodeproj
+
+2. Run the following to insert missing properties:
 ```
-python3 Scripts/insert_plist_settings.py
+python3 <project root>/Scripts/insert_plist_settings.py
 ```
-For Mac, copy Product folder files (vst3, component) to Mac-OS plugin path: /Library/Audio/Plug-Ins
+Note: Running SimpleEQ.jucer wipes data such as pList info
+
+3. Choose target (SimpleEQ - Standalone Plugin) and run
+
+Copy Product folder files (vst3, component) to Mac-OS plugin path: /Library/Audio/Plug-Ins
 
 ## Credits
 
