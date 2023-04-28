@@ -1,6 +1,6 @@
-# SimpleEQ
+# Simple JUCE EQ
 
-![Screenshot](https://jasonfleischer.github.io/juce-eq/https://jasonfleischer.github.io/juce-eq/Resources/Screenshot1.png)
+![Screenshot](https://jasonfleischer.github.io/juce-eq/Resources/Screenshot1.png)
 
 ## Description
 
