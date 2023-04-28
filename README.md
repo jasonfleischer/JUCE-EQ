@@ -1,6 +1,6 @@
 # SimpleEQ
 
-![Screenshot](https://jasonfleischer.github.io/juce-eq/Resources/Screenshot1.png "Screenshot")
+![Screenshot](https://jasonfleischer.github.io/juce-eq/https://jasonfleischer.github.io/juce-eq/Resources/Screenshot1.png)
 
 ## Description
 
@@ -19,7 +19,7 @@ For Mac, copy Product folder files (vst3, component) to Mac-OS plugin path: /Lib
 
 ## Credits
 
-####Matkat Music 
+#### Matkat Music 
 - [github](https://github.com/matkatmusic)
 - [SimpleEQ project](https://github.com/matkatmusic/SimpleEQ)
 - [Instagram](https://www.instagram.com/matkatmusic)
